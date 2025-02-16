@@ -122,7 +122,7 @@ while running:
         # Colisions
         
         if colisionDebounce == 0:
-               if RockPos[0] < 400 and RockPos[0] > 300:
+               if RockPos[0] < 600 and RockPos[0] > 500:
                     if CharacterPos[1] > 400:
                          colisionDebounce = 1
                          Colided = True
